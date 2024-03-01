@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: "Poppins", sans-serif;
+    background: black;
+}
+
+.navbar{
+    display: flex; 
+    flex-flow: nowrap; 
+    height: 100px;
+    background:black ;
+    justify-content:center ; 
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    flex: 20%; 
+    margin-left: 10%;
+    /*border: 1px solid red;*/
+    text-align: left;
+    
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    /*border: 1px solid green;*/
+    padding: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+    transition: 0.3s all;
+}
+
+.menu a:hover{
+    color: red;
+    
+}
+
+#botao{
+    background: white;
+    padding: 10px 25px;
+    color: black;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 8%;
+}
+
+#botao:hover{
+    border: none;
+    background: red;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    padding-top: 100px;
+}
+
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid greenyellow; */
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p{
+    color: white;
+    text-align: left;
+}
+
+.contact-btn{
+    display: inline-block;
+    background: white;
+    padding: 20px;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover{
+    background: red;
+}
+
+
+.img-headline{
+    margin-right: 10%;
+    flex:40%;
+    /*border: 1px solid deeppink;*/
+    text-align: center;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    /*border: 1px solid white;*/
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+    background: black;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.cards{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid white ;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.cards h3{
+    color: white;
+}
+
+.cards p{
+    color: white;
+}
+
+.cards:hover{
+    
+    color: black;
+    padding: 40px;
+}
+
+
+
+.cards:hover .cards-text{
+    display: none;
+}
+
+.cards:hover .text-oculto{
+    display: block;
+}
+
+footer{
+    margin-top: 100px;
+    height: 600px;
+    text-align: center;
+    border-top: 5px solid white;
+        
+}
+
+.logo-rodape{
+    padding: 100px;
+    
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    height: 75;
+    width: 75;
+}
